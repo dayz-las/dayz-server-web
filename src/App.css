@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+ */
+
+.particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: black;
+  background-size: 28%;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.body-particles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.white {
+  z-index: -1;
+  background-image: url("http://beeimg.com/images/n35071903382.png");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 25%;
+}
+
+.test {
+  z-index: 1;
+  position: absolute;
+  left: 750px;
+  top: 280px;
+}
+
+img{
+  width: 500px;
 }
